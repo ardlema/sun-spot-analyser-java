@@ -4,7 +4,7 @@ package org.nasa.sunspotanalyser.exception;
  * Sun Spot Analyser generic exception.
  * 
  */
-public class SunSpotAnalyserException extends Exception {
+public class SunSpotAnalyserException extends IllegalArgumentException {
 	
 	/** Serial Version UID.	 */
 	private static final long serialVersionUID = 1L;
